@@ -1,0 +1,10 @@
+/Users/leo/Desktop/csharpPractice/AddTwoNumbers/bin/Debug/netcoreapp2.0/AddTwoNumbers.deps.json
+/Users/leo/Desktop/csharpPractice/AddTwoNumbers/bin/Debug/netcoreapp2.0/AddTwoNumbers.runtimeconfig.json
+/Users/leo/Desktop/csharpPractice/AddTwoNumbers/bin/Debug/netcoreapp2.0/AddTwoNumbers.runtimeconfig.dev.json
+/Users/leo/Desktop/csharpPractice/AddTwoNumbers/bin/Debug/netcoreapp2.0/AddTwoNumbers.dll
+/Users/leo/Desktop/csharpPractice/AddTwoNumbers/bin/Debug/netcoreapp2.0/AddTwoNumbers.pdb
+/Users/leo/Desktop/csharpPractice/AddTwoNumbers/obj/Debug/netcoreapp2.0/AddTwoNumbers.csproj.CoreCompileInputs.cache
+/Users/leo/Desktop/csharpPractice/AddTwoNumbers/obj/Debug/netcoreapp2.0/AddTwoNumbers.AssemblyInfoInputs.cache
+/Users/leo/Desktop/csharpPractice/AddTwoNumbers/obj/Debug/netcoreapp2.0/AddTwoNumbers.AssemblyInfo.cs
+/Users/leo/Desktop/csharpPractice/AddTwoNumbers/obj/Debug/netcoreapp2.0/AddTwoNumbers.dll
+/Users/leo/Desktop/csharpPractice/AddTwoNumbers/obj/Debug/netcoreapp2.0/AddTwoNumbers.pdb
