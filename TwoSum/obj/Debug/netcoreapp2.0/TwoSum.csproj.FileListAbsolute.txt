@@ -1,0 +1,10 @@
+/Users/leo/Desktop/csharpPractice/TwoSum/bin/Debug/netcoreapp2.0/TwoSum.deps.json
+/Users/leo/Desktop/csharpPractice/TwoSum/bin/Debug/netcoreapp2.0/TwoSum.runtimeconfig.json
+/Users/leo/Desktop/csharpPractice/TwoSum/bin/Debug/netcoreapp2.0/TwoSum.runtimeconfig.dev.json
+/Users/leo/Desktop/csharpPractice/TwoSum/bin/Debug/netcoreapp2.0/TwoSum.dll
+/Users/leo/Desktop/csharpPractice/TwoSum/bin/Debug/netcoreapp2.0/TwoSum.pdb
+/Users/leo/Desktop/csharpPractice/TwoSum/obj/Debug/netcoreapp2.0/TwoSum.csproj.CoreCompileInputs.cache
+/Users/leo/Desktop/csharpPractice/TwoSum/obj/Debug/netcoreapp2.0/TwoSum.AssemblyInfoInputs.cache
+/Users/leo/Desktop/csharpPractice/TwoSum/obj/Debug/netcoreapp2.0/TwoSum.AssemblyInfo.cs
+/Users/leo/Desktop/csharpPractice/TwoSum/obj/Debug/netcoreapp2.0/TwoSum.dll
+/Users/leo/Desktop/csharpPractice/TwoSum/obj/Debug/netcoreapp2.0/TwoSum.pdb
