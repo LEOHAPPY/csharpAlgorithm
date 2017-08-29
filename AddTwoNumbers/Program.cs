@@ -8,35 +8,35 @@ namespace AddTwoNumbers
         public int val;
         public ListNode next;
         public ListNode(int x) { val = x; }
-        public ListNode() {}
+        // public ListNode() {}
 
-        private ListNode head;
+        // private ListNode head;
 
-        public void addLast (int x){
-            if(head == null){
-                head = new ListNode();
-                head.next = null;
-                head.val = x;
-            }else{
-                ListNode toAdd = new ListNode(x);
-                ListNode current = head;
-                while (current.next != null)
-                {
-                    current = current.next;
-                }
+        // public void addLast (int x){
+        //     if(head == null){
+        //         head = new ListNode();
+        //         head.next = null;
+        //         head.val = x;
+        //     }else{
+        //         ListNode toAdd = new ListNode(x);
+        //         ListNode current = head;
+        //         while (current.next != null)
+        //         {
+        //             current = current.next;
+        //         }
 
-                current.next = toAdd;
-            }
-        }
-        public void printAllNodes()
-        {
-            ListNode current = head;
-            while (current != null)
-            {
-                Console.WriteLine(current.val);
-                current = current.next;
-            }
-        }
+        //         current.next = toAdd;
+        //     }
+        // }
+        // public void printAllNodes()
+        // {
+        //     ListNode current = head;
+        //     while (current != null)
+        //     {
+        //         Console.WriteLine(current.val);
+        //         current = current.next;
+        //     }
+        // }
 
     }
 
@@ -55,58 +55,85 @@ namespace AddTwoNumbers
             l2.next.next.next = new ListNode(9);
 
             ListNode result = addTwoNumbers(l1,l2);
-            // while(result != null){
-            //     Console.WriteLine(result.val);
-            //     result = result.next;
-            // }
-            result.printAllNodes();
+            while(result != null){
+                Console.WriteLine(result.val);
+                result = result.next;
+            }
+            // result.printAllNodes();
 
         }
         
 
         public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-            //initialize result - a ListNode 
-            ListNode result = new ListNode();
-            int proceed = 0;
+    //         //initialize result - a ListNode 
+    //         ListNode result = new ListNode();
+    //         int proceed = 0;
 
-            while (l1 !=null || l2 !=null){
-                int l1V = l1 == null ? 0 : l1.val;
-                int l2V = l2 == null ? 0 : l2.val;
+    //         while (l1 !=null || l2 !=null){
+    //             int l1V = l1 == null ? 0 : l1.val;
+    //             int l2V = l2 == null ? 0 : l2.val;
                 
-                int sum = l1V + l2V;
-                result.addLast(sum%10 + proceed);
+    //             int sum = l1V + l2V;
+    //             result.addLast((sum%10 + proceed)%10);
 
-                if(sum>=10)
-                    proceed = 1;
-                else
-                    proceed = 0;
+    //             if(sum>=10)
+    //                 proceed = 1;
+    //             else
+    //                 proceed = 0;
 
-                if (l1 != null)
-                    l1 = l1.next;
-                if (l2 != null)
-                    l2 = l2.next;
-            }
-            return result;
+    //             if (l1 != null)
+    //                 l1 = l1.next;
+    //             if (l2 != null)
+    //                 l2 = l2.next;
+    //         }
+    //         return result;
+
+        //must have a temp curr, a head which is attached to curr for saving each iteratoration
         // ListNode dummyHead = new ListNode(0);
-        // ListNode p = l1, q = l2, curr = dummyHead;
+        // ListNode p = l1, q = l2;
+        // ListNode curr = dummyHead;
+
         // int carry = 0;
         // while (p != null || q != null) {
-        // int x = (p != null) ? p.val : 0;
-        // int y = (q != null) ? q.val : 0;
-        // int sum = carry + x + y;
-        // carry = sum / 10;
-        // curr.next = new ListNode(sum % 10);
-        // curr = curr.next;
-        // if (p != null) p = p.next;
-        // if (q != null) q = q.next;
+        //     int x = (p != null) ? p.val : 0;
+        //     int y = (q != null) ? q.val : 0;
+        //     int sum = carry + x + y;
+        //     carry = sum / 10; //get fist number
+        //     curr.next = new ListNode(sum % 10);
+        //     curr = curr.next;//replace the previous one -- get current node
+
+        //     if (p != null) p = p.next;
+        //     if (q != null) q = q.next;
         // }
         // if (carry > 0) {
         //     curr.next = new ListNode(carry);
         // }
-        // return dummyHead.next;  
+        // //why dummyHead get ref from curr? updated automatically
+        // return dummyHead.next;
         // }
+        ListNode Head = new ListNode(0);
+        ListNode curr = Head;
+        
+        int carry = 0;
+        while(l1.next != null || l2.next != null){
+            int l1v = l1 == null ? 0 : l1.val;
+            int l2v = l2 == null ? 0 : l2.val;
+            
+            int sum = l1v + l2v + carry;
+            carry = sum/10;
+            curr.next = new ListNode(sum%10);
+            curr = curr.next;
+            
+            if(l1.next != null) l1 = l1.next;
+            if(l2.next != null) l2 = l2.next;
         }
+        if (carry>0){
+            curr = new ListNode(carry);
+        }
+        return Head.next;
     }
+}
+}
 //     public class Node
 // {
 //     public Node next;
@@ -187,4 +214,4 @@ namespace AddTwoNumbers
 //         Console.ReadLine();
 //     }
 // }
-}
+
