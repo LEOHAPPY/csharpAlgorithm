@@ -1,0 +1,10 @@
+/Users/leo/Desktop/csharpPractice/4_MedianofTwoSortedArrays/bin/Debug/netcoreapp2.0/4_MedianofTwoSortedArrays.deps.json
+/Users/leo/Desktop/csharpPractice/4_MedianofTwoSortedArrays/bin/Debug/netcoreapp2.0/4_MedianofTwoSortedArrays.runtimeconfig.json
+/Users/leo/Desktop/csharpPractice/4_MedianofTwoSortedArrays/bin/Debug/netcoreapp2.0/4_MedianofTwoSortedArrays.runtimeconfig.dev.json
+/Users/leo/Desktop/csharpPractice/4_MedianofTwoSortedArrays/bin/Debug/netcoreapp2.0/4_MedianofTwoSortedArrays.dll
+/Users/leo/Desktop/csharpPractice/4_MedianofTwoSortedArrays/bin/Debug/netcoreapp2.0/4_MedianofTwoSortedArrays.pdb
+/Users/leo/Desktop/csharpPractice/4_MedianofTwoSortedArrays/obj/Debug/netcoreapp2.0/4_MedianofTwoSortedArrays.csproj.CoreCompileInputs.cache
+/Users/leo/Desktop/csharpPractice/4_MedianofTwoSortedArrays/obj/Debug/netcoreapp2.0/4_MedianofTwoSortedArrays.AssemblyInfoInputs.cache
+/Users/leo/Desktop/csharpPractice/4_MedianofTwoSortedArrays/obj/Debug/netcoreapp2.0/4_MedianofTwoSortedArrays.AssemblyInfo.cs
+/Users/leo/Desktop/csharpPractice/4_MedianofTwoSortedArrays/obj/Debug/netcoreapp2.0/4_MedianofTwoSortedArrays.dll
+/Users/leo/Desktop/csharpPractice/4_MedianofTwoSortedArrays/obj/Debug/netcoreapp2.0/4_MedianofTwoSortedArrays.pdb

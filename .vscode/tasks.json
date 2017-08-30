@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}/LongestSubstring/LongestSubstring.csproj"
+                "${workspaceRoot}/4_MedianofTwoSortedArrays/4_MedianofTwoSortedArrays.csproj"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"
