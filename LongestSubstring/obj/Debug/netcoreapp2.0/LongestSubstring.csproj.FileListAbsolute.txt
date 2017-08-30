@@ -1,0 +1,10 @@
+/Users/leo/Desktop/csharpPractice/LongestSubstring/bin/Debug/netcoreapp2.0/LongestSubstring.deps.json
+/Users/leo/Desktop/csharpPractice/LongestSubstring/bin/Debug/netcoreapp2.0/LongestSubstring.runtimeconfig.json
+/Users/leo/Desktop/csharpPractice/LongestSubstring/bin/Debug/netcoreapp2.0/LongestSubstring.runtimeconfig.dev.json
+/Users/leo/Desktop/csharpPractice/LongestSubstring/bin/Debug/netcoreapp2.0/LongestSubstring.dll
+/Users/leo/Desktop/csharpPractice/LongestSubstring/bin/Debug/netcoreapp2.0/LongestSubstring.pdb
+/Users/leo/Desktop/csharpPractice/LongestSubstring/obj/Debug/netcoreapp2.0/LongestSubstring.csproj.CoreCompileInputs.cache
+/Users/leo/Desktop/csharpPractice/LongestSubstring/obj/Debug/netcoreapp2.0/LongestSubstring.AssemblyInfoInputs.cache
+/Users/leo/Desktop/csharpPractice/LongestSubstring/obj/Debug/netcoreapp2.0/LongestSubstring.AssemblyInfo.cs
+/Users/leo/Desktop/csharpPractice/LongestSubstring/obj/Debug/netcoreapp2.0/LongestSubstring.dll
+/Users/leo/Desktop/csharpPractice/LongestSubstring/obj/Debug/netcoreapp2.0/LongestSubstring.pdb

@@ -89,50 +89,30 @@ namespace AddTwoNumbers
     //         return result;
 
         //must have a temp curr, a head which is attached to curr for saving each iteratoration
-        // ListNode dummyHead = new ListNode(0);
-        // ListNode p = l1, q = l2;
-        // ListNode curr = dummyHead;
+        ListNode dummyHead = new ListNode(0);
+        ListNode p = l1, q = l2;
+        ListNode curr = dummyHead;
 
-        // int carry = 0;
-        // while (p != null || q != null) {
-        //     int x = (p != null) ? p.val : 0;
-        //     int y = (q != null) ? q.val : 0;
-        //     int sum = carry + x + y;
-        //     carry = sum / 10; //get fist number
-        //     curr.next = new ListNode(sum % 10);
-        //     curr = curr.next;//replace the previous one -- get current node
-
-        //     if (p != null) p = p.next;
-        //     if (q != null) q = q.next;
-        // }
-        // if (carry > 0) {
-        //     curr.next = new ListNode(carry);
-        // }
-        // //why dummyHead get ref from curr? updated automatically
-        // return dummyHead.next;
-        // }
-        ListNode Head = new ListNode(0);
-        ListNode curr = Head;
-        
         int carry = 0;
-        while(l1.next != null || l2.next != null){
-            int l1v = l1 == null ? 0 : l1.val;
-            int l2v = l2 == null ? 0 : l2.val;
-            
-            int sum = l1v + l2v + carry;
-            carry = sum/10;
-            curr.next = new ListNode(sum%10);
-            curr = curr.next;
-            
-            if(l1.next != null) l1 = l1.next;
-            if(l2.next != null) l2 = l2.next;
+        //check the current p and q
+        while (p != null || q != null) {
+            int x = (p != null) ? p.val : 0;
+            int y = (q != null) ? q.val : 0;
+            int sum = carry + x + y;
+            carry = sum / 10; //get fist number
+            curr.next = new ListNode(sum % 10);
+            curr = curr.next;//replace the previous one -- get current node
+
+            if (p != null) p = p.next;
+            if (q != null) q = q.next;
         }
-        if (carry>0){
-            curr = new ListNode(carry);
+        if (carry > 0) {
+            curr.next = new ListNode(carry);
         }
-        return Head.next;
+        //why dummyHead get ref from curr? updated automatically
+        return dummyHead.next;
+        }
     }
-}
 }
 //     public class Node
 // {
