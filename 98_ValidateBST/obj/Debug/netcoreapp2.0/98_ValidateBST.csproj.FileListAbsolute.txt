@@ -1,0 +1,10 @@
+/Users/leo/Desktop/csharpPractice/98_ValidateBST/bin/Debug/netcoreapp2.0/98_ValidateBST.deps.json
+/Users/leo/Desktop/csharpPractice/98_ValidateBST/bin/Debug/netcoreapp2.0/98_ValidateBST.runtimeconfig.json
+/Users/leo/Desktop/csharpPractice/98_ValidateBST/bin/Debug/netcoreapp2.0/98_ValidateBST.runtimeconfig.dev.json
+/Users/leo/Desktop/csharpPractice/98_ValidateBST/bin/Debug/netcoreapp2.0/98_ValidateBST.dll
+/Users/leo/Desktop/csharpPractice/98_ValidateBST/bin/Debug/netcoreapp2.0/98_ValidateBST.pdb
+/Users/leo/Desktop/csharpPractice/98_ValidateBST/obj/Debug/netcoreapp2.0/98_ValidateBST.csproj.CoreCompileInputs.cache
+/Users/leo/Desktop/csharpPractice/98_ValidateBST/obj/Debug/netcoreapp2.0/98_ValidateBST.AssemblyInfoInputs.cache
+/Users/leo/Desktop/csharpPractice/98_ValidateBST/obj/Debug/netcoreapp2.0/98_ValidateBST.AssemblyInfo.cs
+/Users/leo/Desktop/csharpPractice/98_ValidateBST/obj/Debug/netcoreapp2.0/98_ValidateBST.dll
+/Users/leo/Desktop/csharpPractice/98_ValidateBST/obj/Debug/netcoreapp2.0/98_ValidateBST.pdb

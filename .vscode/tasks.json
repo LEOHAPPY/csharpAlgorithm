@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}/4_MedianofTwoSortedArrays/4_MedianofTwoSortedArrays.csproj"
+                "${workspaceRoot}/98_ValidateBST/98_ValidateBST.csproj"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"
